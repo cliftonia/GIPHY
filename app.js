@@ -22,7 +22,7 @@ const handleClick = function(event) {
   });
 
   var options = {
-    url: `https://api.giphy.com/v1/gifs/search?q=${searchInput.value}&api_key=Tg9V3TkAY9BFePnwVwuRzQRa5bBgsejc&limit=10&offset=${offset}`
+    url: `https://cors-anywhere.herokuapp.com/http://api.giphy.com/v1/gifs/search?q=${searchInput.value}&api_key=Tg9V3TkAY9BFePnwVwuRzQRa5bBgsejc&limit=10&offset=${offset}`
   };
 
   $.ajax(options).done(function(resp) {
@@ -46,7 +46,7 @@ const addMore = event => {
     offset < 50
   ) {
     var options = {
-      url: `https://api.giphy.com/v1/gifs/search?q=${searchInput.value}&api_key=Tg9V3TkAY9BFePnwVwuRzQRa5bBgsejc&limit=10&offset=${offset}`
+      url: `https://cors-anywhere.herokuapp.com/http://api.giphy.com/v1/gifs/search?q=${searchInput.value}&api_key=Tg9V3TkAY9BFePnwVwuRzQRa5bBgsejc&limit=10&offset=${offset}`
     };
 
     $.ajax(options).done(function(resp) {
@@ -73,7 +73,7 @@ const addMore = event => {
 
 const addMoreBtn = even => {
   var options = {
-    url: `https://api.giphy.com/v1/gifs/search?q=${searchInput.value}&api_key=Tg9V3TkAY9BFePnwVwuRzQRa5bBgsejc&limit=10&offset=${offset}`
+    url: `https://cors-anywhere.herokuapp.com/http://api.giphy.com/v1/gifs/search?q=${searchInput.value}&api_key=Tg9V3TkAY9BFePnwVwuRzQRa5bBgsejc&limit=10&offset=${offset}`
   };
 
   $.ajax(options).done(function(resp) {
