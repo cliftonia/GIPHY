@@ -1,0 +1,51 @@
+.giph-image {
+  width: 100%;
+  display: block;
+  padding: 2vmin;
+}
+
+.ui-card {
+  margin: 0 auto;
+  width: 100vmin;
+  padding: 1%;
+}
+
+.more-btn {
+  margin: ;
+}
+
+.img-section {
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.form-div {
+  text-align: center;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.animate-781646 {
+  animation-name: heartBeat;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  animation-fill-mode: none;
+}
+
+.more-btn {
+  display: none;
+}
+
+.more-btn-div {
+  display: flex;
+  justify-content: center;
+}
